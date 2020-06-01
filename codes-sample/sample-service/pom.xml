@@ -20,6 +20,11 @@
       <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
     </dependency>
     <dependency>
+      <groupId>org.apache.shiro</groupId>
+      <artifactId>shiro-spring-boot-web-starter</artifactId>
+      <version>RELEASE</version>
+    </dependency>
+    <dependency>
       <groupId>com.codes</groupId>
       <artifactId>sample-client</artifactId>
     </dependency>
