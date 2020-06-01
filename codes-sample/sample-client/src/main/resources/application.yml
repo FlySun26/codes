@@ -1,0 +1,12 @@
+server:
+  port: 7002
+
+# 设置应用名称，便于在注册中心中查看
+spring:
+  application:
+    name: SAMPLE-SERVICE
+# 设置注册中心
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
