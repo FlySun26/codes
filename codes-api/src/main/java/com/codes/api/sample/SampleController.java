@@ -27,6 +27,7 @@ public class SampleController {
     @GetMapping("/hello")
     public String hello() {
         RemoteResponse<String> response = sampleClient.hello();
+        System.out.println();
         return response.getData();
     }
 
